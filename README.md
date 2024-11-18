@@ -77,10 +77,10 @@ If Go is not already installed on your system, follow these steps:
 Create a file named `ecowitt_to_thingspeak.env` in the root directory of the project (`~/ecowitt_to_thingspeak/`) with the following content:
 
 ```env
-ECOWITT_APPLICATION_KEY=E6065D116ED009F99AA9004DAF8718EF
-ECOWITT_API_KEY=7fe45b77-ed01-4679-be61-8d7b961474b0
-ECOWITT_MAC=34:94:54:8C:F8:CA
-THINGSPEAK_WRITE_API_KEY=13HMSXMDK6ZT8CN3
+ECOWITT_APPLICATION_KEY=
+ECOWITT_API_KEY=
+ECOWITT_MAC=
+THINGSPEAK_WRITE_API_KEY=
 ```
 
 **Important:** Ensure that this file is **not** added to version control. Add it to `.gitignore` if using Git:
