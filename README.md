@@ -1,7 +1,5 @@
 # 🌤️ Ecowitt to ThingSpeak
 
-![Ecowitt to ThingSpeak Logo](https://user-images.githubusercontent.com/CyberScopeToday/ecowitt_to_thingspeak/logo.png)
-
 ## 📄 Description
 
 **Ecowitt to ThingSpeak** is a **Go application** that regularly (once every minute) fetches data from the [Ecowitt API](https://api.ecowitt.net/) and sends it to the [ThingSpeak](https://thingspeak.com/) platform for further analysis and visualization. The application is configured to run as a system service on Linux using `systemd` and supports cross-compilation for Windows.
